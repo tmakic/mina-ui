@@ -23,6 +23,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
+    - name: install deps
+      run: yarn install
     - name: run build storybook
       run: yarn storybook:build
     - name: deploy
