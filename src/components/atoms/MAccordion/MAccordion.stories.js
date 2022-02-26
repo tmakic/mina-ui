@@ -13,7 +13,7 @@ const Template = (args, { argTypes }) => ({
     <MAccordion style="padding: 24px;">
       <template v-slot:title>
         <div>
-          title
+          titleeee
         </div>
       </template>
       <template v-slot:content>
