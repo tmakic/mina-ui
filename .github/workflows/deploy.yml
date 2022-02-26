@@ -5,7 +5,7 @@ name: Storybook pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
 
 jobs:
   build:
